@@ -16,7 +16,7 @@ terraform {
 provider "azurerm" {
  features {}
 }
-modules "learn-terraform-modules" {
+module "learn-terraform-modules" {
  source = "./modules/learn-terraform-modules"
  name     = var.resource_group_name
  location = var.location
