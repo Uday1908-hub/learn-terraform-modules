@@ -17,7 +17,7 @@ provider "azurerm" {
  features {}
 }
 module "learn-terraform-modules" {
- source = "./modules/learn-terraform-modules"
+ source = "./module/learn-terraform-modules"
  name     = var.resource_group_name
  location = var.location
  tags     = var.tags
